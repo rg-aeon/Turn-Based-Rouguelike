@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{D1FD5FF1-68CD-9CAD-AE50-0DB4406B240C}") = "Turn Based Roguelike", "Assembly-CSharp.csproj", "{9ED3C7DA-0F16-3068-0670-4AAE271F24AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ED3C7DA-0F16-3068-0670-4AAE271F24AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED3C7DA-0F16-3068-0670-4AAE271F24AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED3C7DA-0F16-3068-0670-4AAE271F24AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED3C7DA-0F16-3068-0670-4AAE271F24AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
