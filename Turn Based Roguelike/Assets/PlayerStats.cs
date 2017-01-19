@@ -4,11 +4,11 @@ using System.Collections;
 public class playerStats : MonoBehaviour {
     int baseAttack = 10;
     int baseDefense = 10;
-    new public float attack;
-    new public float defense;
+    public float attack;
+    public float defense;
 
-    new public float defIncreasePerLevel;
-    new public float attIncreasePerLevel;
+    public float defIncreasePerLevel;
+    public float attIncreasePerLevel;
 
     void StatsChanges ()
     {

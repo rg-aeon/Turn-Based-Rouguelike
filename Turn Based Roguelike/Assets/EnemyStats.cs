@@ -3,19 +3,24 @@ using System.Collections;
 
 public class EnemyStats : MonoBehaviour {
 
-    new ArrayList enemyList;
-    new int enemyPick;
+    ArrayList enemyList;
+    int enemyPick;
     Random getRandom = new Random();
 
-    void RegEnemyPicker ()
+
+    void regEnemyPicker ()
     {
-        enemyPick = getRandom.Next(0, 10);
+        enemyPick = Random.Range(0, 10);
+        //int enemyPickInt = (int)enemyPick;
+        //return enemyPickInt;
+        //Debug.Log(enemyPickInt);
+
     }
 
 	// Use this for initialization
 	void Start () {
-	
-	}
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
