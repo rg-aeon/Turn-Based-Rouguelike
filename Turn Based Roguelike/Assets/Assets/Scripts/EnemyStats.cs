@@ -16,6 +16,10 @@ public class EnemyStats : MonoBehaviour {
     public GameObject boar;
     public GameObject soldier;
 
+    public float enemyAttack;
+    public float enemyDefense;
+    public float enemyHP;
+    public float dmgTaken;
 
     //int enemyPickInt = (int)enemyPick;
     //return enemyPickInt;
@@ -41,27 +45,65 @@ public class EnemyStats : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        int enemyPick = Random.Range(0, 8);
-
-        /*enemyList = new GameObject[9];
-        enemyList[0] = wolf;
-        enemyList[1] = viking;
-        enemyList[2] = villager;
-        enemyList[3] = lynx;
-        enemyList[4] = troll;
-        enemyList[5] = dwarf;
-        enemyList[6] = bear;
-        enemyList[7] = boar;
-        enemyList[8] = soldier;
-
-        GameObject currentEnemy = enemyList[Random.Range(0, enemyList.Length)];
-
-        Debug.Log(currentEnemy);*/
+        
 
     }
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+        foreach (GameObject element in enemyList)
+        {
+            if (gameObject == wolf)
+            {
+                enemyAttack = 5;
+                enemyDefense = 5;
+                enemyHP = 20;
+            }
+            if (gameObject == viking)
+            {
+                enemyAttack = 10;
+                enemyDefense = 7;
+                enemyHP = 20;
+            }
+            if (gameObject == villager)
+            {
+                enemyAttack = 3;
+                enemyDefense = 3;
+                enemyHP = 15;
+            }
+            if (gameObject == lynx)
+            {
+                enemyAttack = 7;
+                enemyDefense = 7;
+                enemyHP = 23;
+            }
+            if (gameObject == troll)
+            {
+                enemyAttack = 12;
+                enemyDefense = 14;
+                enemyHP = 30;
+            }
+            if (gameObject == dwarf)
+            {
+                enemyAttack = 10;
+                enemyDefense = 15;
+                enemyHP = 27;
+            }
+            if (gameObject == bear)
+            {
+                enemyAttack = 8;
+                enemyDefense = 9;
+                enemyHP = 26;
+            }
+            if (gameObject == boar)
+            {
+                enemyAttack = ;
+                enemyDefense = 14;
+                enemyHP = 30;
+            }
+        }
+
+    }
+
+
 }
