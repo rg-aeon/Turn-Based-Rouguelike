@@ -43,14 +43,8 @@ public class EnemyStats : MonoBehaviour {
         Debug.Log(currentEnemy);
     }
 
-	// Use this for initialization
-	void Start () {
-        
-
-    }
-	
-	// Update is called once per frame
-	void Update () {
+    void spawnEnemy()
+    {
         foreach (GameObject element in enemyList)
         {
             if (gameObject == wolf)
@@ -97,13 +91,31 @@ public class EnemyStats : MonoBehaviour {
             }
             if (gameObject == boar)
             {
-                enemyAttack = ;
-                enemyDefense = 14;
-                enemyHP = 30;
+                enemyAttack = 7;
+                enemyDefense = 12;
+                enemyHP = 15;
             }
+            if (gameObject == soldier)
+            {
+                enemyAttack = 12;
+                enemyDefense = 12;
+                enemyHP = 15;
+            }
+        }
+    }
+
+	// Use this for initialization
+	void Start () {
+        
+
+    }
+	
+	 //Update is called once per frame
+	void Update () {
+        
         }
 
     }
 
 
-}
+

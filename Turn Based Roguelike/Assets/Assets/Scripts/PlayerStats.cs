@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class playerStats : MonoBehaviour {
+public class PlayerStats : MonoBehaviour
+{
     float baseAttack = 10;
     float baseDefense = 10;
     float baseHP = 40;
@@ -13,30 +14,32 @@ public class playerStats : MonoBehaviour {
     public float attIncreasePerLevel;
     public float healthIncreasePerLevel;
 
-    void StatsChanges ()
+    void StatsChanges()
     {
         baseAttack = attack;
         baseDefense = defense;
-        baseHP = hp;  
+        baseHP = hp;
         defIncreasePerLevel = defense / 7;
         attIncreasePerLevel = attack / 7;
         healthIncreasePerLevel = hp / 7;
     }
 
-    void OnLevelUp ()
+    void OnLevelUp()
     {
         attack += attIncreasePerLevel;
         defense += defIncreasePerLevel;
         hp += healthIncreasePerLevel;
     }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 }

@@ -45,7 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Assets\Scripts\EnemyAttack.cs" />
      <Compile Include="Assets\Assets\Scripts\EnemyStats.cs" />
+     <Compile Include="Assets\Assets\Scripts\PlayerAttack.cs" />
      <Compile Include="Assets\Assets\Scripts\PlayerStats.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
