@@ -16,10 +16,10 @@ public class EnemyStats : MonoBehaviour {
     public GameObject boar;
     public GameObject soldier;
 
-    public float enemyAttack;
-    public float enemyDefense;
-    public float enemyHP;
-    public float dmgTaken;
+    public static float enemyAttack;
+    public static float enemyDefense;
+    public static float enemyHP;
+    public static float dmgTaken;
 
     //int enemyPickInt = (int)enemyPick;
     //return enemyPickInt;
@@ -45,7 +45,7 @@ public class EnemyStats : MonoBehaviour {
 
     void spawnEnemy()
     {
-        foreach (GameObject element in enemyList)
+        foreach (GameObject gameObject in enemyList)
         {
             if (gameObject == wolf)
             {

@@ -3,12 +3,12 @@ using System.Collections;
 
 public class PlayerStats : MonoBehaviour
 {
-    float baseAttack = 10;
-    float baseDefense = 10;
-    float baseHP = 40;
-    public float attack;
-    public float defense;
-    public float hp;
+    public float baseAttack = 10;
+    public float baseDefense = 10;
+    public float baseHP = 40;
+    public static float attack;
+    public static float defense;
+    public static float hp;
 
     public float defIncreasePerLevel;
     public float attIncreasePerLevel;
