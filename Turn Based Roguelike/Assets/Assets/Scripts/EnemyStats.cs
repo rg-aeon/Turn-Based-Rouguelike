@@ -16,10 +16,10 @@ public class EnemyStats : MonoBehaviour {
     public GameObject boar;
     public GameObject soldier;
 
-    public static float enemyAttack;
-    public static float enemyDefense;
-    public static float enemyHP;
-    public static float dmgTaken;
+    public static float enemyAttack = 0;
+    public static float enemyDefense = 0;
+    public static float enemyHP = 0;
+    public static float dmgTaken = 0;
 
     //int enemyPickInt = (int)enemyPick;
     //return enemyPickInt;
